@@ -29,3 +29,8 @@
 @function font($path, $base: $base-url) {
   @return asset($base, 'fonts/', $path);
 }
+
+//To work with css variables on sass
+@function css-variable($variable) {
+  @return var(--#{$variable});
+}
