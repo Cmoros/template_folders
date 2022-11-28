@@ -1,0 +1,1 @@
+Here goes any kind of template like Handlebars
